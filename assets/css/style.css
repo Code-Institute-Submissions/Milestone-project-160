@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300&family=Lora:ital@1&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Lora, sans-serif;
+    color: #3f000f;
+}
+
+h2 {
+    font-family: Imbue, sans-serif;
+    color: #eb8108;
+    font-weight: 250;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    padding-left: 10px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+/* horizontally align logo and menu items */
+#logo, #menu {
+    line-height: 75px;
+}
+
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* set the hover and the active page */
+
+#menu a:hover {
+    border-bottom: 1px #eb8108 solid;
+}
+
+.active {
+    border-bottom: 1px #eb8108 solid;
+}
+
+/* Hero Image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../img/hi.jpg) no-repeat center center;
+
+    animation: heroZ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+/* some animation */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes heroZ {
+    from{
+        transform: scale(1);
+
+    }
+    to {
+        transform: scale(1.1);
+
+    }
+} 
+
+/* Overlay styling on hero image */
+
+#overlay h2 {
+    color: #fafafa;
+    padding-bottom: 10px;
+}
+#overlay h4 {
+    color:#3f000f;
+}
+
+#overlay {
+    font-size: 120%;
+    font-family: Imbue, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 240px;
+    height:145px;
+    border-radius: 10%;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(230, 76, 5, 0.719);
+
+    bottom: 70px;
+    left: 60px;
+    position: absolute;
+}
+
+#overlay a {
+    text-decoration: none;
+}
+
+
+/* the aboutus page */
+
+#aboutus {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+
+}
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+/*font-family: 'Noto Serif JP', serif;*/
+
