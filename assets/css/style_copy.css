@@ -139,9 +139,9 @@ h2 {
 /*  aboutus heading style*/
 #teammembers {
     text-align: center;
-    margin: 20px 0 20px 0;
-    font-size: 300%;
-    font-weight: 400; 
+    margin: 15px 0;
+    font-size: 280%;
+    font-weight: 250; 
     color: #3f000f;
 }
 
@@ -215,7 +215,6 @@ hr {
 /* Class and times section .......*/
 
 /* orange image styling */
-
 #classtimes {
     background-image: url('../img/orangebg.jpg'); 
     background-repeat: no-repeat;
@@ -248,23 +247,6 @@ hr {
 #classtimes h2 {
     font-weight: 400;
 }
-
-aside{
-    color: #ffffff;
-    text-align: center;
-    width: 100%;
-    padding-top: 15%; 
-    margin-top: 125px;
-}
-
-aside h1 {
-    color: #000000;
-    font-family: Lora, sans-serif;
-    font-size: 150%;
-    font-weight: 900;
-}
-
-
 /* robbed css foot classes form running  just for reference.*/
 
 footer {
@@ -279,15 +261,10 @@ footer {
     padding-bottom: 5px;
 }
 
-footer h2 {
-    color: #eb8108;
-    font-weight: 800;
-}
-
 footer h2,h4{
     padding-left: 10px;
     padding-right: 3px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
@@ -303,8 +280,8 @@ footer h2,h4{
 
 
 .be-social i {
-    font-size: 250%;
     color: #eb8108;
+    font-size: 160%;
     margin: 1%;
     padding: 3%;
 }
