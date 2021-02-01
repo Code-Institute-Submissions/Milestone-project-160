@@ -7,12 +7,73 @@
 }
 
 body {
-    font-family: Lora, sans-serif;
+    font-family: 'Roboto', serif;
     color: #3f000f;
 }
 
+/* bootstraping sytling */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    background-color: #fafafa;
+}
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: 400;
+    color: #eb8108;
+    font-family: 'Imbue', serif;
+    font-size: 350%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+} 
+
+.navbar .navbar-nav a {
+    color: #3f000f;
+    font-family: 'Lora', serif;
+    font-size: 200%;
+    float: right;
+    margin-left: 10px
+    margin-right: 10px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: #3f000f;
+    font-family: 'Lora', serif;
+    font-size: 150%;
+    float: right;
+    left:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.logostyle{
+    color: #eb8108;
+    font-size: 200%;
+    font-family: 'Imbue', serif;
+    margin-right: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+
+}
+
+.navstyle{
+    color: red;
+    
+}
+
 h1 {
-    font-family: Imbue, sans-serif;
+    font-family: 'Imbue', serif;
     color: #eb8108;
     font-weight: 300;
     text-transform: uppercase;
@@ -27,7 +88,16 @@ h2 {
     letter-spacing: 3px;
 }
 
+/* bootstraping 
+.navbar-light .navbar-brand {
+    color: #eb8108; */
+
 #logo {
+    font-family: Imbue, sans-serif;
+    color: #eb8108;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     float: left;
     font-size: 330%;
     margin-left: 30px;
@@ -44,13 +114,15 @@ h2 {
     font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
-    }
+    
+}
 
 /* horizontally align logo and menu items */
 
 #logo, #menu, #logo2 {
     line-height: 75px;
 }
+
 
 #menu li {
     float: right;
@@ -61,7 +133,6 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
-
 
 /* set the hover and the active page */
 
@@ -613,39 +684,10 @@ padding: 10px 0 0 10px;
 
 /* for very small devices */
 
-@media screen and (max-width: 500px){
- 
-    #logo {
-    
-    text-align: center;
-    font-size: 200%;
-    padding: 0;
-    margin: 0;
-}
-#menu li {
-    float: left;
-    text-align: center;
-}
-
+@media screen and (max-width: 800px){
     #logo2 {
-   
-        display: none;
-    }
-
-        .smalldevice {
-            display: none;
-        }
-}
-@media screen and (max-width: 280px){
-    .smalldevice2 {
-            display: none;
-    }
-            #logo {
-    
-    text-align: center;
-        
-}
-div .smalldevice2{
-    display:none
+    float: left;
+    font-size: 120%;
+    color:#eb8108;
 }
 }
