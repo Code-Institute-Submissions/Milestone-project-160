@@ -130,7 +130,7 @@ The technologies used were
 
 
 #### Future technology
-*Bootstrap and jQuery
+* Bootstrap and jQuery
 
   * Plan to add a model about special offer, carousal of pictures of happy pilate people
   * Also add a collapsible nav menu for the smaller devices.
@@ -155,26 +155,41 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Deployment
+#### Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+GitHub Pages was used to deploy this website.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
+* Log in to GitHub and locate the projects GitHub Repository
+* In the repository, click on the Settings tab at the top.
+* Scroll down about halfway where it says GitHub Pages.
+* Select "master branch" from the drop-down under Source, then click save. It'll then give a URL, which is the live deployment page to use.
+(note it may take a couple minutes and a hard refresh Ctrl+F5 to fully load your project the first time)
+* Then go back to the top, click Code tab to go back to the main repository, and at the very top to the very right there's a place to paste the live deployment link
+
+
+> To run your code locally click on adjacent link: (https://michele-c.github.io/Milestone-project-1/) or copy it into your browsers URL bar.
 
 ## Credits
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
+#### Media
 - The photos used in this site were obtained from ...
 
-### Acknowledgements
+#### Acknowledgements
 
-- I received inspiration for this project from X
+ 1. I received inspiration for this project from my own pilates teacher Monica!
+ 2. I researched load of websites to see what was popular. Examples include:
+
+  * pilates rooms  
+  * flo pilates 
+  * seomra yoga
+  * fit to the core
+  * platinum pilates
+3. Cormac-ci for just been nice and helpful on stack
+4. Matt Rudge tutorials especially the "Love to run project". Huge thanks to him.
+5. The code institute stack community.
+6. 
