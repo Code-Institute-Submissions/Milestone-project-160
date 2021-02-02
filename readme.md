@@ -107,26 +107,33 @@ The site is a series of 5 html pages that can be accessed in the navigation bar 
 
 #### Surface
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+The look and feel of the website should be one of warmth, friendliness, fitness,
+cleanliness and upmost professionalism. The colour and themes are uniform and complementary 
+throughout. Its clear and easy to find what information you need from the website. The images used 
+are inclusive and welcoming to all.  
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+#### Technologies Used
 
-### Features Left to Implement
-- Another feature idea
+The technologies used were 
+* html5 
+* CSS3
 
-## Technologies Used
+#### Framework
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+* Google Fonts: to import the font-family Imbue:wght@300, Lora and Roboto. Didn't use Roboto 
+* Font Awesome (v5.6.3). Icons on website.
+* Git for version control.
+* GitHub is the repository for all projects.
+* Befunky to resize and edit photos
+* Balsamiq used to create the wireframes during the design process.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
 
+#### Future technology
+*Bootstrap and jQuery
+
+  * Plan to add a model about special offer, carousal of pictures of happy pilate people
+  * Also add a collapsible nav menu for the smaller devices.
 
 ## Testing
 
