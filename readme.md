@@ -1,70 +1,111 @@
 # The Pilates Parlour
 ## Milestone 1 project for code institute User Centric Front-end Development
 
-### About the business – 
+Click adjacent link to view real webpage : (https://michele-c.github.io/Milestone-project-1/)
+
+## 
+
+![Responsive website Image ](/assets/img/responsivepic.png)
+# UX
+
+
+#### About the business - 
 The Pilates Parlour is a new Pilates studio in the south west region of Ireland. Brainchild of inspirational Pilates master instructors, Ursula and Hanna Gluckman. The custom-built studio opened its doors in 2016 in Ennis, Co Clare. 
 
 The studio, in the past, catered for small groups of students but recently has built on three further rooms and hired another instructor. Their methods and classes have delivered amazing results in alleviating backpain and poor posture, while improving flexibility, fitness and overall health. Bodies get transformed. 
 Once attended, users return to The Pilates Parlour again and again.
 
-## UX
-
-### Project Goals for the business
+#### Project Goals for the business -
 We plan to build an impressive website in order to create a strong online presence and promote the existing “The Pilates Parlour” business in the south west region of Ireland and beyond.
 The website will provide the following information in a positive user-focused manner:
-•	Use suitable typograph, imagery and color schemes across all pages to provide a positive experience for our users.
+*	Use suitable typograph, imagery and color schemes across all pages to provide a positive experience for our users.
 
-•	Tell the background story of The Pilates Parlour, its ethos and the history behind the effective Pilates method used.
+*	Tell the background story of The Pilates Parlour, its ethos and the history behind the effective Pilates method used.
 
-•	Provide an insight into the instructors and their qualifications
+*	Provide an insight into the instructors and their qualifications
 
-•	Provide a brief but informative description of the classes and the different levels of fitness and flexibility catered for
+*	Provide a brief but informative description of the classes and the different levels of fitness and flexibility catered for
 
-•	Provide the class schedules
+*	Provide the class schedules
 
-•	List clearly the cost involved 
+*	List clearly the cost involved 
 
-•	Explain what one needs to bring with them to the classes and what to expect?
+*	Explain what one needs to bring with them to the classes and what to expect?
 
-•	Provide location and contact details, including a contact form so that users and send in their details and thus we can contact them directly and sign them up to the most suitable class for them.
+*	Provide location and contact details, including a contact form so that users and send in their details and thus we can contact them directly and sign them up to the most suitable class for them.
 
-•	Ultimately – the site will promote the business and increase sunscribers and revenue.
+*	Ultimately – the site will promote the business and increase sunscribers and revenue.
 
-•	
-Once the business has established a cult following there will be an opportunity to sell branded merchandise and Pilates equipment [this is out of MS1 scope currently]. 
-UX
-Who this website is for.
-The Pilates Method, a body–mind exercise approach originally developed by Joseph Pilates, has become widely popular. Pilates studios nationwide are frequented by people of all ages and body types and with different fitness needs – including clients starting out on their fitness and wanting to tone up, professional footballers, rugby players, people with chronic pain and ill health, those recovering from injuries and people who want the ultimate toned bodies. Pilates is for everyone!
-User Stories:
-•	As a new user I want to google “Pilate classes” and find the The Pilates Parlour website easily.
-•	As a new user I want the site to load fast and easily on all performs [responsive design].
-•	As a new user I want a nicely presented site with suitable typography and uniform colours throughout the site so that it is pleasant and calming to dwell here.
-•	As a new user I am interested in finding out about the pilates method and what the practice is about.
-•	As a new user I want to be able to navigate easily through the site.
-•	As a new user I want to find out about the business, its history and owners.
-•	As a new user I want to know about the instructors and their qualifications.
-•	As a new user I want to learn about the classes available and the schedules.
-•	As a new user I want to know about the cost of the classes.
-•	As a new user I want to see images of the studio, instructors & participants in a positive light.
-•	As a new user I need to be able to find the location and contact details of the business.
-•	As a new user I need to be able to find the contact form easily.
-•	As a new user I need to be able to check out their social media presence.
-•	As an existing user I would like to be able to find the phone number and location of the business easily.
-•	As an existing user I would like to be able to see the class schedule and price list easily
-•	As an existing user I need to be able to check out their social media presence.
-•	As a returning user I would like to be able to find the phone number and location of the business easily
-•	As a returning user I would like to be able to see the class schedule and price list easily
-•	As a returning user I need to be able to check out their social media presence.
+	
+
+_Once the business has established a cult following there will be an opportunity to sell branded merchandise and Pilates equipment [this is out of MS1 scope currently]._
+
+
+#### Users Stories -
+
+Who this website is for?
+
+>The Pilates Method, a body–mind exercise approach originally developed by Joseph Pilates, has become widely popular. Pilates studios nationwide are frequented by people of all ages and body types and with different fitness needs, including clients starting out on their fitness and wanting to tone up, professional footballers, rugby players, people with chronic pain and ill health, those recovering from injuries and people who want the ultimate toned bodies. Pilates is for everyone!
+
+
+
+
+#### New User:
+
+*	As a new user I want to google “Pilate classes” and find the The Pilates Parlour website easily.
+*	As a new user I want the site to load fast and easily on all performs [responsive design].
+*	As a new user I want a nicely presented site with suitable typography and uniform colours throughout the site so that it is pleasant and calming to dwell here.
+*	As a new user I want to be able to navigate easily through the site.
+*	As a new user I want to know about the instructors and their qualifications.
+*	As a new user I want to learn about the classes available and the schedules.
+*	As a new user I want to know about the cost of the classes.
+*	As a new user I need to be able to find the location and contact details of the business.
+*	As a new user I need to be able to find the contact form easily.
+*	As a new user I need to be able to check out their social media presence.
+
+
+#### Existing User
+
+As an existing user I would like to be able to find the phone number and location of the business easily.
+*	As an existing user I would like to be able to see the class schedule and price list easily.
+*	As an existing user I need to be able to check out their social media presence.
+*   As an existing user I need to find the phone number simply.
+
+#### Returning User
+*	As a returning user I would like to be able to find the phone number and location of the business easily
+*	As a returning user I would like to be able to see the class schedule and price list easily
+*	As a returning user I need to be able to check out their social media presence.
 
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+#### Features
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+From the project goals the following features were included in the scope of the project:
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* A "Home page" {index.html} with clear contact details (phone number, email, contact page), headings, social media links and a warm welcoming message with a link to contact us. 
+* An "About us" {about.html} page which introduces the 4 team members and gives a brief background about them.
+* A "Classes" {classes.html} page which lists the classes and what's involved in each.
+* A "Schedule" {classtimes.html} page which lists the days, the times and the cost of each class and service. This page includes and inspiring quote from Joseph Pilates.
+* A "Contact Us" {contact.html} which contains a form that the user fills out so that we can email them or phone them back.
 
-## Features
+>On the navigation bar the "logo" links to the home page.
+On the footer the "Contact us" brings up the form page. Social media links are available there also.
+On the home page the welcome overlay also has a button to link to the form page.
+
+>> Future scope will see another page that will list and sell pilates equipment and gear.
+
+
+#### Structure
+
+The site is a series of 5 html pages that can be accessed in the navigation bar and other active links on the home page and footer. 
+
+#### Skeleton
+* The information is displayed in different pages with links in the navigation bar.
+* Each section has its own html page.
+* The navigation and footer bars are consistant across all pages.
+* The footer bar contains social media links and a link to the contact us page.
+
+
+#### Surface
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
