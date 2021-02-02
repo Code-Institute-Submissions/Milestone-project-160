@@ -129,7 +129,7 @@ h2 {
     height:180px;
     border-radius: 15%;
     padding: 15px 15px 25px 15px;
-    background-color: rgba(248, 73, 4, 0.7);
+    background-color: rgba(248, 73, 4, 0.6);
     bottom: 70px;
     left: 60px;
     position: absolute;
@@ -280,14 +280,15 @@ hr {
 #classtimes div {
     color: #fafafa;
     background-color: rgba(0,0,0, 0.6);
-    width: 19%;
+    width: 19.5%;
     height: 160px;
     float: left;
     text-align: center;
-    padding: 20px 0 20px 0;
-    margin: 1px;
+    padding: 20px 0 0 0;
+    margin: 3px;
     line-height: 15px;
 }
+
 
 #classtimes h4 {
     font-weight: 200;
@@ -298,7 +299,7 @@ hr {
     font-weight: 400;
 }
 
-aside{
+blockquote{
     color: #ffffff;
     text-align: center;
     width: 100%;
@@ -306,14 +307,14 @@ aside{
 }
 
 
-aside h2 {
+blockquote h2 {
     color: #000;
     font-family: Lora, sans-serif;
     font-size: 150%;
     font-weight: 900;
     }
 
-    aside h4 {
+    blockquote h4 {
         margin-left: 500px;
     }
 
