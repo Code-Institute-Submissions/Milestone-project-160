@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300&family=Lora:ital@1&family=Roboto&display=swap');
-
+/* Clear all default padding and margins before starting - although wild cards slow site */ 
 *{
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+/* Styling the basic elements here. Using font style Lora and Imbue from Google fonts imported above. */
 
 body {
     font-family: Lora, sans-serif;
@@ -27,11 +29,16 @@ h2 {
     letter-spacing: 3px;
 }
 
+/* This is styling for my The Pilates Parlour logo which is also a link to the home page. This header is uniform across
+all website pages */
+
 #logo {
     float: left;
     font-size: 330%;
     margin-left: 30px;
 }
+
+/* This is my telephone number logo */
 
 #logo2 {
     float: left;
@@ -41,13 +48,16 @@ h2 {
     font-weight: 600;
 }
 
+/* This ID is for my unordered list items which are links to all pages
+and they reside beside the logos */
+
 #menu {
     font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
     }
 
-/* horizontally align logos and menu items */
+/* horizontally align logos and menu items . Thanks Matt Rudge tutorial for this tip*/
 
 #logo, #menu, #logo2 {
     line-height: 75px;
@@ -58,13 +68,14 @@ h2 {
     margin-right: 20px;
 }
 
+/* this code gets rid of the bullet points - ci lessons*/
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
-
-/* set the hover and the active page */
+/* set the hover and the active page - Love running tutorial lesson*/
 
 #menu a:hover {
     border-bottom: 1px #eb8108 solid;
@@ -74,20 +85,22 @@ h2 {
     border-bottom: 1px #eb8108 solid;
 }
 
-/* Hero Image for landing page*/
+/* Hero Image for landing page. 
+ I got the image from pexel.com and followed the Love Running tutorial to set it up*/
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../img/hi.jpg") no-repeat center center;
     
-/* some animation to make the image move forwards and stop */
+/* some animation to make the image move forwards and stop - again saw this in the love running tutorial*/
+
     animation: heroZ;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
 }
 
+/* styling the outer container ( wrapper) here */
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -95,8 +108,10 @@ h2 {
     position: relative;
 }
 
+/* Again from the love running tutorial we were taught this clever trip - nice touch I think 
+  - I copied the code and adapted to my project */ 
 
-@keyframes heroZ {
+  @keyframes heroZ {
     from{
         transform: scale(1);
 
@@ -107,7 +122,7 @@ h2 {
     }
 } 
 
-/* Overlay styling on hero image */
+/* Overlay styling on hero image. I wanted a nice welcome message with a button to the schedule */
 
 #overlay h2 {
     color: #fafafa;
@@ -137,9 +152,12 @@ h2 {
     position: absolute;
 }
 
+/* Gets rid of the bullet point*/
 #overlay a {
     text-decoration: none;
 }
+
+/* This is my styling for the land button - wished I used bootstrap from the very start */ 
 
 #landbutton {
     margin-top: 8px;
@@ -155,7 +173,6 @@ h2 {
 #landbutton a {
     background-color: #3f000f;
     color: #eb8108;
-
 }
 
 #landbutton a:hover {
@@ -163,8 +180,10 @@ h2 {
 }
 
 
-/*................ THE ABOUT US PAGE!!!!!!............. 
-The love running project by CI really helped me hear*/
+/*........................ THE ABOUT US PAGE!!!!!!................................. 
+The love running project by CI really helped me here*/
+
+/* This sets up the middle section between the nav bar and the footer */
 
 #aboutus {
     clear: both;
@@ -187,11 +206,14 @@ The love running project by CI really helped me hear*/
     padding-bottom:10px;
 }
 
+/* This page is broken into three columns called left-about, right about and center. Each width is 33% of the total width
+Left floats left and right floats right. The middle column is left until last for styling. We add headings and paragraphs 
+about the pilates team and they straddle the center picture - again I copied the idea from LOVE RUNNING */
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
 }
 
 .left-about-side {
@@ -243,7 +265,9 @@ hr {
     margin: 0 auto;    
 }
 
-/*Center column photos in aboutus*/
+
+/*Center column photos in aboutus. Like in Love Running I make the center div circular with equal width, height 
+and border-radius at 50%. I include an outer cirle with border for style*/
 
 #circle-container {
     width: 300px;
@@ -255,15 +279,19 @@ hr {
     border-width: 1px;
     margin: 0 auto; 
 }
+
+/* Image came from the pexel.com site*/
+
 #circle-bg-pic {
    background: url("../img/group.jpg") no-repeat center center;
    height: 100%;
    border-radius: 50%;
 }
 
-/* Class and times section .......*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CLASS AND TIMES SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-/* orange image styling */
+/* For the schedule page I use a warm orange image. Again it is used as the background and takes up
+the section between footer and header section. */
 
 #classtimes {
     background-image: url('../img/orangebg2.jpg'); 
@@ -276,7 +304,8 @@ hr {
     width: 100%;
 }
 
-/* SCHEDULE : - the 5 different class and times styling */
+/* SCHEDULE : - the 5 different class and times styling. Each div takes up approx 20% of the width. 
+Thus 5 boxes */
 
 #classtimes div {
     color: #fafafa;
@@ -290,7 +319,6 @@ hr {
     line-height: 15px;
 }
 
-
 #classtimes h4 {
     font-weight: 200;
     margin-bottom: 4px;
@@ -300,8 +328,10 @@ hr {
     font-weight: 400;
 }
 
+/* This is my quote under the 5 boxes. It doesn't obscure the picture underneath 
+and is easy to read */
 
- blockquote{
+blockquote{
     margin: 0 auto;
     color: #ffffff;
     text-align: right;
@@ -348,6 +378,9 @@ footer h2,h4{
     text-align: center;
 }
 
+/* Under the contact info is my social media icons and links. Again thanks to the love running tutorial
+Got icons from fontawesome library for all my project */
+
 .be-social
 {
    text-align: center;
@@ -358,7 +391,6 @@ footer h2,h4{
     display: inline;
 }
 
-
 .be-social i {
     font-size: 250%;
     color: #eb8108;
@@ -366,9 +398,9 @@ footer h2,h4{
     padding: 3%;
 }
 
-/* ...........Classes descriptions ........*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Classes descriptions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/* Setting the background on the classes page */
+/* Setting the background on the classes page. Thanks to Pexel.com for image. */
 
 #pilateclasses {
     background: url('../img/cliff.jpg') no-repeat;
@@ -405,7 +437,7 @@ font-weight: 600;
 
 
 /*......... CONTACT US FORM..... For this page I would have looked at the love running and the 
-coffee coders house code to get ideas on how to set up a form. I liked the way they place the form in the LOVe Running 
+coffee coders house code to get ideas on how to set up a form. I also checked on line. I liked the way they place the form in the LOVe Running 
 and I took the code for my contact me form.*/
 
 .form {
@@ -420,7 +452,7 @@ and I took the code for my contact me form.*/
 .signup {
     margin-top: 175px;
     color:#fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.6); /* love this see through effect*/
     width: 300px;
     height: 350px;
     border-radius: 5%;
@@ -448,13 +480,12 @@ and I took the code for my contact me form.*/
 }
 
 .form-input:hover {
-                  border-color: #3f000f;
+    border-color: #3f000f;
 }
 
-.contact-button 
-{
-margin-top: 10px;
-margin-left: 90px;
+.contact-button {
+    margin-top: 10px;
+    margin-left: 90px;
     border-radius: 5px;
     padding: 10px 10px;
     text-align: center;
@@ -468,60 +499,58 @@ margin-left: 90px;
         color: #f56f15;
     }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~RESPONSIVE SECTION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-/* TABLETS    media queries for a tablet .........for screen sizes at or below 1393 px*/
+/* TABLETS    This media query is for a tablet .........for screen sizes at or below 1393 px*/
 
 @media screen and (max-width: 1393px) {
  
-/* the about us section - the love running project gave me pointers on this */
+/* Making the "about us" section responsive to small laptop, tablet screens - The love running project gave me pointers on this with regards
+to device widths. Once this media query is met the following styling is enforced. */
 
 #aboutus {
-width: 65%;
-height: 1200px;
-margin: 0 auto;
-}
-
+    width: 65%;
+    height: 1200px;
+    margin: 0 auto;
+    }
    
-    #logo {
+#logo {
     width: 65%;
     text-align: left;
-}
+    }
 
-
-    #menu{
-        clear: both;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 20px;
-        font-size: smaller;
+#menu{
+    clear: both;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: smaller;
     }
 
 #teammembers {
     padding: 20px 0;
     margin-top: 0;
-}
+    }
 
 #right-about, #left-about {
     width:100%;
     float: left;
     padding: 0;
-}
-
+    }
+ /* this pushes picture down*/
 #center-about {
     clear: both;
     width: 100%;
     float: left;
     padding: 0;
-}
+    }
 
-hr {
+hr {  /* got rid of horizontal line under names */
     display: none;
-}
+    }
 
-/* This following piece is for the classes pages. 
-Responsive design was followed from the love running project and adapted accordingly */
+/*~~~~~~~~~~~~~~~~~~~~~~~ This following piece is for the classes pages.~~~~~~~~~~~~~~ */
 
 #classes {
     width: 65%;
@@ -535,8 +564,7 @@ Responsive design was followed from the love running project and adapted accordi
     padding: 30px 0px 0px 5px;
     }
 
-/* This following piece is for the SCHEDULE pages. 
-Responsive design was followed from the love running project and adapted accordingly */
+/* ~~~~~~~~~~~~~~~~~~~~ This following piece is for the SCHEDULE pages.~~~~~~~~~~~~~~  */
 
 #classtimes {
     width: 65%;
@@ -544,6 +572,7 @@ Responsive design was followed from the love running project and adapted accordi
     margin:0 auto;
     background-repeat: no-repeat;
 }
+
 #classtimes div {
     width:100%;
     text-align: left;
@@ -562,40 +591,41 @@ blockquote p {
 }
 
 }
-/* Responsiveness for ipad pro devices */
+
+/* ~~~~~~~~~~~~~~~~~~Responsiveness for ipad pro devices ~~~~~~~~~~~~~~~~~~~~~~~~
+With a lot of testing I feel I managed to get the responive design working*/
 
 @media screen and (max-width: 1200px) {
 
-       
-    #logo {
+#logo {
     width: 65%;
     text-align: left;
 }
  
-    #menu{
-        clear: both;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 20px;
-        font-size: smaller;
+#menu{
+    clear: both;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: smaller;
     }
     
     /*remove top telephone number */
     #logo2 {
         display: none;
     }
-    /* Remove J Pilates quote on schedule page*/
+    /* Remove J Pilates quote on schedule page - looked terible on small devices*/
     #quote {
         display:none;
     }
     /* center headings for divs on schedule page*/
 
-     #classtimes h2 {
+    #classtimes h2 {
     clear: both;
     text-align: center;
-}
-    /* fill the area the quote was in with divs */
+    }
+    /* filled in the area the quote was in by increasing div size */
     
     #classtimes div {
         width: 100%;
@@ -620,7 +650,7 @@ blockquote p {
     text-align: left;
 }
 
-a, h1{
+    a, h1{
     text-decoration: none;
 }
 
@@ -633,26 +663,30 @@ a, h1{
         margin-bottom: 20px;
         line-height: 20px;
         font-size: smaller;
-}
+     }
 
-.smalldevice {
+/* REmoved 2 items form the nav list - contact us and the classes item - as not needed
+on mobile */
+
+    .smalldevice {
         display: none;
     }
+
 /* The about us page made responsive in this section - Again the CI "love running project" was a great guide here */
 
-#aboutus {
-width: 80%;
-height: 1200px;
-margin: 0 auto;
-}
+    #aboutus {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-.right-about-side, .left-about-side {
-    width:inherit;
-}
-.right-about-side h2, .left-about-side h2{
-    width: 100%;
-    text-align: center;
-}
+    .right-about-side, .left-about-side {
+        width:inherit;
+    }
+    .right-about-side h2, .left-about-side h2{
+        width: 100%;
+        text-align: center;
+    }
 
 .right-about-side p, .left-about-side p{
     width: 100%;
@@ -664,13 +698,13 @@ margin: 0 auto;
    Note - the quote and cite from Joesph pilates was removed for mobiles as it was not needed */
 
 #classtimes div {
-        width: 100%;
-        clear: both;
-        height: 220px;
-        border-style: solid;
-        border-bottom-width: 2px;
-        border-bottom-color: #000;
-        padding: 20px 0 0 0;
+    width: 100%;
+    clear: both;
+    height: 220px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #000;
+    padding: 20px 0 0 0;
     }
     
  #classtimes h2 {
@@ -697,37 +731,43 @@ margin: 0 auto;
 
 @media screen and (max-width: 500px){
  
-    #logo {
+#logo {
     text-align: center;
     font-size: 200%;
     padding: 0;
     margin: 0;
 }
+
 #menu li {
     float: left;
     text-align: center;
 }
 
-    #logo2 {
+/* Leave out telephone number from nav bar. Also omit 2 items from the nav list */
+
+#logo2 {
       display: none;
     }
 
-    .smalldevice {
+.smalldevice {
       display: none;
         }
 }
 
 /*Concentrating on RESPONSIVENESS for tiny phones. Nover over lay on home page and no menu item contact us and classes */
 
-@media screen and (max-width: 280px){
-    .smalldevice {
-        display: none;
+@media screen and (max-width: 280px)
+
+{
+
+.smalldevice {
+    display: none;
     }
-    #logo {
+#logo {
         text-align: left;
         }
     
-    div .smalldevice2 {
-        display:none
+div .smalldevice2 {
+    display:none
     }
 }
