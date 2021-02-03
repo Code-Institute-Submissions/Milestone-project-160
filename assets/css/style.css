@@ -740,7 +740,7 @@ on mobile */
 
 #menu li {
     float: left;
-    text-align: center;
+    text-align: right;
 }
 
 /* Leave out telephone number from nav bar. Also omit 2 items from the nav list */
@@ -763,11 +763,12 @@ on mobile */
 .smalldevice {
     display: none;
     }
+
 #logo {
-        text-align: left;
+        text-align: right;
         }
     
-div .smalldevice2 {
-    display:none
+.smalldevice2 {
+    display:none;
     }
 }
