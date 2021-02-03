@@ -543,19 +543,49 @@ blockquote p {
 }
 
 }
+/* Responsiveness for ipad pro devices */
+
+@media screen and (max-width: 1200px) {
+    /*remove top telephone number */
+    #logo2 {
+        display: none;
+    }
+    /* Remove J Pilates quote on schedule page*/
+    #quote {
+        display:none;
+    }
+    /* center headings for divs on schedule page*/
+
+     #classtimes h2 {
+    clear: both;
+    text-align: center;
+}
+    /* fill the area the quote was in with divs */
+    
+    #classtimes div {
+        width: 100%;
+        clear: both;
+        height: 220px;
+        border-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #000;
+        padding: 20px 0 0 0;
+    }
+
+}
 /* media queries for mobiles .........for screen sizes at or below 943px  credit to CI and the "Love Running Lesson for these pieces of code*/
 
 
 @media screen and (max-width: 943px) {
 
-/*checked out in formstack question and answers */
-
-   #logo {
+/*checked this out in formstack question and answers */
+    
+    #logo {
     width: 90%;
     text-align: left;
 }
 
-a,h1{
+a, h1{
     text-decoration: none;
 }
 
@@ -569,6 +599,8 @@ a,h1{
         line-height: 20px;
         font-size: smaller;
 }
+
+/* The about us page made responsive in this section - Again the CI "love running project" was a great guide here */
 
 #aboutus {
 width: 90%;
@@ -589,42 +621,38 @@ margin: 0 auto;
     text-align: center;
 }
 
+
+/* The schedule page made responsive in this section - Again the CI "love running project" was a great guide here.
+   Note - the quote and cite from Joesph pilates was removed for mobiles as it was not needed */
+
 #classtimes div {
         width: 100%;
         clear: both;
-        height: 175px;
+        height: 220px;
         border-style: solid;
         border-bottom-width: 2px;
         border-bottom-color: #000;
         padding: 20px 0 0 0;
     }
     
-  h2 {
+ #classtimes h2 {
     clear: both;
     text-align: center;
-    }
-
-aside {
-font-size: 65%;
-padding: 10px 0 0 10px;
 }
 
 #classes {
-
     width: 80%;
     height: 1200px;
     margin: 0 auto;
     background-repeat: no-repeat;
 }
+
 #classes blockquote {
     width:100%;
     text-align: left;
     margin-top: 10px;
     padding: 10px 0px 0px 5px;
-    
-}
-
-
+    }
 }
 
 /* for very small devices */
@@ -632,7 +660,6 @@ padding: 10px 0 0 10px;
 @media screen and (max-width: 500px){
  
     #logo {
-    
     text-align: center;
     font-size: 200%;
     padding: 0;
@@ -652,17 +679,18 @@ padding: 10px 0 0 10px;
             display: none;
         }
 }
+
+/*Concentrating on RESPONSIVENESS for tiny phones */
+
 @media screen and (max-width: 280px){
     .smalldevice2 {
-            display: none;
+        display: none;
     }
     #logo {
         text-align: center;
         }
-div .smalldevice2{
-    display:none
+    
+    div .smalldevice2 {
+        display:none
     }
-
-/*Concentrating on contact us page for tiny phones */
-
 }
