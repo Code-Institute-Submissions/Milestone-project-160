@@ -4,18 +4,20 @@
 Click adjacent link to view real webpage : (https://michele-c.github.io/Milestone-project-1/)
 
 ## 
+ 
+#### Mockup for Responsive website
 
 ![Responsive website Image ](/assets/img/responsivepic.png)
 # UX
 
 
-#### About the business - 
+## About the business - 
 The Pilates Parlour is a new Pilates studio in the south west region of Ireland. Brainchild of inspirational Pilates master instructors, Ursula and Hanna Gluckman. The custom-built studio opened its doors in 2016 in Ennis, Co Clare. 
 
 The studio, in the past, catered for small groups of students but recently has built on three further rooms and hired another instructor. Their methods and classes have delivered amazing results in alleviating backpain and poor posture, while improving flexibility, fitness and overall health. Bodies get transformed. 
 Once attended, users return to The Pilates Parlour again and again.
 
-#### Project Goals for the business -
+## Project Goals for the business -
 We plan to build an impressive website in order to create a strong online presence and promote the existing “The Pilates Parlour” business in the south west region of Ireland and beyond.
 The website will provide the following information in a positive user-focused manner:
 *	Use suitable typograph, imagery and color schemes across all pages to provide a positive experience for our users.
@@ -41,7 +43,7 @@ The website will provide the following information in a positive user-focused ma
 _Once the business has established a cult following there will be an opportunity to sell branded merchandise and Pilates equipment [this is out of MS1 scope currently]._
 
 
-#### Users Stories -
+## Users Stories -
 
 Who this website is for?
 
@@ -50,7 +52,7 @@ Who this website is for?
 
 
 
-#### New User:
+## New User:
 
 *	As a new user I want to google “Pilate classes” and find the The Pilates Parlour website easily.
 *	As a new user I want the site to load fast and easily on all performs [responsive design].
@@ -64,20 +66,20 @@ Who this website is for?
 *	As a new user I need to be able to check out their social media presence.
 
 
-#### Existing User
+## Existing User
 
 As an existing user I would like to be able to find the phone number and location of the business easily.
 *	As an existing user I would like to be able to see the class schedule and price list easily.
 *	As an existing user I need to be able to check out their social media presence.
 *   As an existing user I need to find the phone number simply.
 
-#### Returning User
-*	As a returning user I would like to be able to find the phone number and location of the business easily
-*	As a returning user I would like to be able to see the class schedule and price list easily
+## Returning User
+*	As a returning user I would like to be able to find the phone number and location of the business easily.
+*	As a returning user I would like to be able to see the class schedule and price list easily.
 *	As a returning user I need to be able to check out their social media presence.
 
  
-#### Features
+## Features
 
 From the project goals the following features were included in the scope of the project:
 
@@ -94,18 +96,18 @@ On the home page the welcome overlay also has a button to link to the form page.
 >> Future scope will see another page that will list and sell pilates equipment and gear.
 
 
-#### Structure
+## Structure
 
 The site is a series of 5 html pages that can be accessed in the navigation bar and other active links on the home page and footer. 
 
-#### Skeleton
+## Skeleton
 * The information is displayed in different pages with links in the navigation bar.
 * Each section has its own html page.
 * The navigation and footer bars are consistant across all pages.
 * The footer bar contains social media links and a link to the contact us page.
 
 
-#### Surface
+## Surface
 
 The look and feel of the website should be one of warmth, friendliness, fitness,
 cleanliness and upmost professionalism. The colour and themes are uniform and complementary 
@@ -113,29 +115,35 @@ throughout. Its clear and easy to find what information you need from the websit
 are inclusive and welcoming to all.  
 
 
-#### Technologies Used
+## Technologies Used
 
 The technologies used were 
 * html5 
 * CSS3
 
-#### Framework
+## Framework
 
 * Google Fonts: to import the font-family Imbue:wght@300, Lora and Roboto. Didn't use Roboto 
 * Font Awesome (v5.6.3). Icons on website.
 * Git for version control.
 * GitHub is the repository for all projects.
-* Befunky to resize and edit photos
+* Befunky to resize and edit photos.
 * Balsamiq used to create the wireframes during the design process.
+* W3Cschools 
+* W3CValidator html gss and assessibility
 
-
-#### Future technology
+## Future technology
 * Bootstrap and jQuery
 
   * Plan to add a model about special offer, carousal of pictures of happy pilate people
   * Also add a collapsible nav menu for the smaller devices.
 
 ## Testing
+
+
+Throughout writing and styling of the pages I ran Devtools from google crome each and every time in an effort to make sure my website was responsive across all devices.
+
+BUGS: Bugs were found such as a halved image on screens under 350 which I fixed by the display: none; style for extra small screens.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -169,27 +177,37 @@ GitHub Pages was used to deploy this website.
 * Then go back to the top, click Code tab to go back to the main repository, and at the very top to the very right there's a place to paste the live deployment link
 
 
-> To run your code locally click on adjacent link: (https://michele-c.github.io/Milestone-project-1/) or copy it into your browsers URL bar.
+> To run your code locally click on adjacent link: ( https://michele-c.github.io/Milestone-project-1/ ) or copy it into your browsers URL bar.
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 #### Media
-- The photos used in this site were obtained from ...
+
+- All photos came from the pexel.com. For the images I need to thank:
+* Hero Image on the index.html page -  Jonathan Borba on pexels
+* Group Image on the about.html page - Anthony Shkraba on pexels.com
+* Classes Image on the class.html page - Cottonbro on pexels.com
+* Schedule Image on the classtime.html page - 
+* Contact image on the contact.html page - jeshoots on Pexels.com
 
 #### Acknowledgements
 
  1. I received inspiration for this project from my own pilates teacher Monica!
- 2. I researched load of websites to see what was popular. Examples include:
+ 2. I researched load of websites to see what was popular. A few examples include:
 
-  * pilates rooms  
-  * flo pilates 
-  * seomra yoga
-  * fit to the core
-  * platinum pilates
-3. Cormac-ci for just been nice and helpful on stack
+     * pilates rooms  
+     * flo pilates 
+     * seomra yoga
+     * fit to the core
+     * platinum pilates
+
+3. Cormac from ci for just been nice, helpful, responsive and positive on stack.
 4. Matt Rudge tutorials especially the "Love to run project". Huge thanks to him.
-5. The code institute stack community.
-6. 
+5. The code institute stack community in general - a mine of information.
+6. Thanks to my mentor for his help and advice.
+7. Thanks to Anna in ci - when I searched for something Anna had a page detailing what was needed. She's amazing.
+8. Stackover flow was a great help - good site at pointing you in a particular direction.
+9. Google!
+10. Jim Lynx on stack - great articles and webinar footage helped me greatly with regards to the readme file. 
+
+

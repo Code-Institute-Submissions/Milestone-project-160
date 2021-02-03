@@ -110,6 +110,7 @@ h2 {
 
 #overlay h2 {
     color: #fafafa;
+    font-weight: 600;
     padding-bottom: 10px;
 }
 
@@ -129,7 +130,7 @@ h2 {
     height:180px;
     border-radius: 15%;
     padding: 15px 15px 25px 15px;
-    background-color: rgba(248, 73, 4, 0.6);
+    background-color: rgba(245, 79, 13, 0.8);
     bottom: 70px;
     left: 60px;
     position: absolute;
@@ -279,7 +280,7 @@ hr {
 
 #classtimes div {
     color: #fafafa;
-    background-color: rgba(0,0,0, 0.6);
+    background-color: rgba(0,0,0, 0.7);
     width: 19.5%;
     height: 160px;
     float: left;
@@ -299,7 +300,8 @@ hr {
     font-weight: 400;
 }
 
-blockquote{
+
+ blockquote{
     color: #ffffff;
     text-align: center;
     width: 100%;
@@ -312,6 +314,7 @@ blockquote h2 {
     font-family: Lora, sans-serif;
     font-size: 150%;
     font-weight: 900;
+    
     }
 
     blockquote h4 {
@@ -366,39 +369,39 @@ footer h2,h4{
 
 /* ...........Classes descriptions ........*/
 
+/* Setting the background on the classes page */
+
 #classes {
-    padding: 0%;
-    margin: 0 auto;
-    clear: left;
-    background: url('../img/classesmc.jpg') no-repeat;
-    height: 600px;
+    background: url('../img/cliff.jpg') no-repeat;
+    height: 660px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-#classes blockquote {
+#classes div {
     text-align: center;
-    width: 800px;
-    height: 150px;
+    width: 583px;
+    height: 145px;
     margin: 0 auto;
-    
+    background-color: rgba(240, 210, 166, 0.8);
+    border-radius: 30%;
 }
 
 #classes p {
 color: #3f000f;
-font-size: 100%;
+font-size: 90%;
 font-weight: 600;
-background-color: rgba(236, 231, 226, 0.5);
-
 }
 
 #classes h2 {
-    font-size: 170%;
+    font-size: 150%;
     font-weight: 600;
-    color: #f56f15;
-    margin-top: 10px;
+    color: #3f000f;
+    margin-top: 15px;
     margin-bottom: 5px;
+    padding-top: 10px;
 }
 
 
