@@ -301,19 +301,18 @@ hr {
 }
 
 
- blockquote
- {
+ blockquote{
     margin: 0 auto;
     color: #ffffff;
     text-align: right;
-    margin-top: 320px;
+    margin-top: 375px;
+    margin-right: 300px;
     height: 300px;
     width: 300px;
 }
 
 blockquote p {
-    margin: 0 auto;
-    text-align: right;
+    text-align: center;
     color: #000;
     font-family: Lora, sans-serif;
     text-transform: uppercase;
@@ -321,9 +320,7 @@ blockquote p {
     font-weight: 800;
     }
 
-
-
-/* robbed css foot classes form running  just for reference.*/
+/* Css foot classes from LOVE running - just for reference.*/
 
 footer {
     clear: both;
@@ -448,13 +445,13 @@ font-weight: 600;
 }
 
 .form-input:hover {
-    border-color: #3f000f;
+                  border-color: #3f000f;
 }
 
-.contact-button {
-
-    margin-top: 10px;
-    margin-left: 90px;
+.contact-button 
+{
+margin-top: 10px;
+margin-left: 90px;
     border-radius: 5px;
     padding: 10px 10px;
     text-align: center;
@@ -470,19 +467,23 @@ font-weight: 600;
 
 
 
-/*media queries for a tablet .........for screen sizes at or below 1393 px*/
+/* TABLETS    media queries for a tablet .........for screen sizes at or below 1393 px*/
 
 @media screen and (max-width: 1393px) {
+ 
+/* the about us section - the love running project gave me pointers on this */
 
 #aboutus {
 width: 65%;
 height: 1200px;
 margin: 0 auto;
 }
+
 #teammembers {
     padding: 20px 0;
     margin-top: 0;
 }
+
 #right-about, #left-about {
     width:100%;
     float: left;
@@ -494,11 +495,14 @@ margin: 0 auto;
     width: 100%;
     float: left;
     padding: 0;
-
 }
+
 hr {
     display: none;
 }
+
+/* This following piece is for the classes pages. 
+Responsive design was followed from the love running project and adapted accordingly */
 
 #classes {
     width: 65%;
@@ -512,6 +516,9 @@ hr {
     padding: 30px 0px 0px 5px;
     }
 
+/* This following piece is for the SCHEDULE pages. 
+Responsive design was followed from the love running project and adapted accordingly */
+
 #classtimes {
     width: 65%;
     height:1200px;
@@ -521,18 +528,18 @@ hr {
 #classtimes div {
     width:100%;
     text-align: left;
-    padding: 20px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
 }
-aside {
+
+blockquote {
     clear: both;
     font-size: 50%;
     padding: 10px 0px 0px 10px;
-      
 }
-aside h2 {
-     color: #eb8108;
-     font-weight: 200;
 
+blockquote p {
+     color: #fafafa;
+     font-weight: 200;
 }
 
 }
@@ -541,12 +548,11 @@ aside h2 {
 
 @media screen and (max-width: 943px) {
 
-   /*check out in formstack question and answers */
+/*checked out in formstack question and answers */
 
    #logo {
     width: 90%;
     text-align: left;
-
 }
 
 a,h1{
@@ -563,8 +569,6 @@ a,h1{
         line-height: 20px;
         font-size: smaller;
 }
-
-
 
 #aboutus {
 width: 90%;
@@ -598,8 +602,8 @@ margin: 0 auto;
   h2 {
     clear: both;
     text-align: center;
-    
-}
+    }
+
 aside {
 font-size: 65%;
 padding: 10px 0 0 10px;
@@ -652,12 +656,13 @@ padding: 10px 0 0 10px;
     .smalldevice2 {
             display: none;
     }
-            #logo {
-    
-    text-align: center;
-        
-}
+    #logo {
+        text-align: center;
+        }
 div .smalldevice2{
     display:none
-}
+    }
+
+/*Concentrating on contact us page for tiny phones */
+
 }
