@@ -369,7 +369,7 @@ footer h2,h4{
 
 /* Setting the background on the classes page */
 
-#classes {
+#pilateclasses {
     background: url('../img/cliff.jpg') no-repeat;
     height: 660px;
     width: 100%;
@@ -378,7 +378,7 @@ footer h2,h4{
     overflow: hidden;
 }
 
-#classes div {
+#pilateclasses div {
     text-align: center;
     width: 583px;
     height: 145px;
@@ -387,13 +387,13 @@ footer h2,h4{
     border-radius: 30%;
 }
 
-#classes p {
+#pilateclasses p {
 color: #3f000f;
 font-size: 90%;
 font-weight: 600;
 }
 
-#classes h2 {
+#pilateclasses h2 {
     font-size: 150%;
     font-weight: 600;
     color: #3f000f;
