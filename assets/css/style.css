@@ -276,7 +276,7 @@ hr {
     width: 100%;
 }
 
-/* the 5 class and times styling */
+/* SCHEDULE : - the 5 different class and times styling */
 
 #classtimes div {
     color: #fafafa;
@@ -320,7 +320,8 @@ blockquote p {
     font-weight: 800;
     }
 
-/* Css foot classes from LOVE running - just for reference.*/
+/* Css foot classes from LOVE running - just for reference. 
+The Love Running tutorial helped me with the footer and the social media addition. I followed it very closely*/
 
 footer {
     clear: both;
@@ -403,7 +404,9 @@ font-weight: 600;
 }
 
 
-/*......... CONTACT US FORM.....*/
+/*......... CONTACT US FORM..... For this page I would have looked at the love running and the 
+coffee coders house code to get ideas on how to set up a form. I liked the way they place the form in the LOVe Running 
+and I took the code for my contact me form.*/
 
 .form {
     clear: left;
@@ -479,6 +482,22 @@ height: 1200px;
 margin: 0 auto;
 }
 
+   
+    #logo {
+    width: 65%;
+    text-align: left;
+}
+
+
+    #menu{
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: smaller;
+    }
+
 #teammembers {
     padding: 20px 0;
     margin-top: 0;
@@ -546,6 +565,22 @@ blockquote p {
 /* Responsiveness for ipad pro devices */
 
 @media screen and (max-width: 1200px) {
+
+       
+    #logo {
+    width: 65%;
+    text-align: left;
+}
+ 
+    #menu{
+        clear: both;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        font-size: smaller;
+    }
+    
     /*remove top telephone number */
     #logo2 {
         display: none;
@@ -600,10 +635,13 @@ a, h1{
         font-size: smaller;
 }
 
+.smalldevice {
+        display: none;
+    }
 /* The about us page made responsive in this section - Again the CI "love running project" was a great guide here */
 
 #aboutus {
-width: 90%;
+width: 80%;
 height: 1200px;
 margin: 0 auto;
 }
@@ -671,23 +709,22 @@ margin: 0 auto;
 }
 
     #logo2 {
-   
-        display: none;
+      display: none;
     }
 
-        .smalldevice {
-            display: none;
+    .smalldevice {
+      display: none;
         }
 }
 
-/*Concentrating on RESPONSIVENESS for tiny phones */
+/*Concentrating on RESPONSIVENESS for tiny phones. Nover over lay on home page and no menu item contact us and classes */
 
 @media screen and (max-width: 280px){
-    .smalldevice2 {
+    .smalldevice {
         display: none;
     }
     #logo {
-        text-align: center;
+        text-align: left;
         }
     
     div .smalldevice2 {
