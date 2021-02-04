@@ -3,8 +3,9 @@
 
 
 ![Responsive website Image ](/assets/img/mockup.png)
+##
 
-![The Pilates Parlour]:(https://michele-c.github.io/Milestone-project-1/)
+[Home Page](https://michele-c.github.io/Milestone-project-1/index.html)
 
 # UX
 
