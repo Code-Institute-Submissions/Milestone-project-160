@@ -1,14 +1,13 @@
 # The Pilates Parlour
 ## Milestone 1 project for code institute User Centric Front-end Development
 
-![The Pilates Parlour]:(https://michele-c.github.io/Milestone-project-1/)
-
-## 
- 
-## Mockup for Responsive website
 
 ![Responsive website Image ](/assets/img/mockup.png)
+
+![The Pilates Parlour]:(https://michele-c.github.io/Milestone-project-1/)
+
 # UX
+
 
 
 ## About the business - 
@@ -249,7 +248,18 @@ has a cog wheel beside it.
 * Then go back to the top, click Code tab to go back to the main repository, and at the very top to the very right there's a place to paste the live deployment link. You are live!
 * Your readme file will be located under it.
 
-## To run the code locally do the following:
+To run the code locally do the following:
+
+When you clone a repository, you copy the repository from GitHub to your local machine.
+
+* Log onto github.
+* Go to the main page of the repository.
+* Over the list of files, click on the word Code.
+* We want to clone the repository using HTTPS so click on HTTPS and copy the link provided.
+* In your own IDE open GIT bash.
+* Change to the directory where you want the clone directory and files to go into.
+* In the terminal type in "git clone" and paste in the URL that you just copied form Github.
+* Hit enter and you have your local clone. 
 
 
 

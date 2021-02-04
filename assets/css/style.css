@@ -128,7 +128,7 @@ and they reside beside the logos */
 
 #overlay h2 {
     color: #fafafa;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 10px;
 }
 
@@ -148,7 +148,7 @@ and they reside beside the logos */
     height:180px;
     border-radius: 15%;
     padding: 15px 15px 25px 15px;
-    background-color: rgba(245, 79, 13, 0.8);
+    background-color: rgba(216, 62, 6, 0.8);
     bottom: 100px;
     left: 60px;
     position: absolute;
