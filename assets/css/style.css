@@ -10,8 +10,10 @@
 
 body {
     font-family: Lora, sans-serif;
-    color: #3f000f;
+    color: #fafafa;
+    background-color: #3f000f;
 }
+
 
 h1 {
     font-family: Imbue, sans-serif;
@@ -206,6 +208,10 @@ The love running project by CI really helped me here*/
     padding-bottom:10px;
 }
 
+#aboutus p {
+    color: #3f000f;
+    font-weight: 600;
+}
 /* This page is broken into three columns called left-about, right about and center. Each width is 33% of the total width
 Left floats left and right floats right. The middle column is left until last for styling. We add headings and paragraphs 
 about the pilates team and they straddle the center picture - again I copied the idea from LOVE RUNNING */
