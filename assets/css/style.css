@@ -127,8 +127,8 @@ and they reside beside the logos */
 /* Overlay styling on hero image. I wanted a nice welcome message with a button to the schedule */
 
 #overlay h2 {
-    color: #fafafa;
-    font-weight: 600;
+    color: #fff;
+    font-weight: 500;
     padding-bottom: 10px;
 }
 
